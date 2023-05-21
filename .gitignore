@@ -1,0 +1,8 @@
+_nvim/
+gh/
+karabiner/
+configstore/
+iterm2/
+plugins/
+Session.vim
+.DS_Store

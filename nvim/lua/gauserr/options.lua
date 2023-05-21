@@ -1,0 +1,35 @@
+local set = vim.opt
+
+set.guicursor = ''
+set.nu = true
+set.clipboard = 'unnamedplus'
+set.relativenumber = true
+set.autoindent = true
+set.backup = false
+set.modifiable = true
+set.cmdheight = 1
+set.fileencoding = 'utf-8'
+set.hlsearch = false
+set.incsearch = true
+set.ignorecase = true
+set.smartcase = true
+set.colorcolumn = '80'
+set.statusline = '%{FugitiveStatusLine()}'
+set.showtabline = 2
+set.smartindent = true
+set.termguicolors = true
+set.timeoutlen = 700
+set.undofile = true
+set.swapfile = false
+set.updatetime = 50
+set.tabstop = 2
+set.softtabstop = 2
+set.shiftwidth = 2
+set.expandtab = true
+set.cursorline = true
+set.numberwidth = 1
+set.signcolumn = 'yes'
+set.wrap = false
+set.scrolloff = 4
+set.hidden = true
+vim.cmd [[ set statusline=%<%f\ %h%m%r%{FugitiveStatusline()}%=%-14.(%l,%c%V%)\ %P ]]
