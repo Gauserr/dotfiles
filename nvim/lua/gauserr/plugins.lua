@@ -61,7 +61,6 @@ return require("packer").startup(function(use)
 			require("nvim-autopairs").setup({})
 		end,
 	})
-	use("theprimeagen/harpoon")
 	use("ibhagwan/fzf-lua")
 	use("windwp/nvim-ts-autotag")
 	use("tpope/vim-fugitive")
