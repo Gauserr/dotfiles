@@ -74,6 +74,17 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  ["ChatGPT.nvim"] = {
+    config = { "\27LJ\2\n5\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\fchatgpt\frequire\0" },
+    loaded = true,
+    path = "/Users/ryan/.local/share/nvim/site/pack/packer/start/ChatGPT.nvim",
+    url = "https://github.com/jackMort/ChatGPT.nvim"
+  },
+  ["Comment.nvim"] = {
+    loaded = true,
+    path = "/Users/ryan/.local/share/nvim/site/pack/packer/start/Comment.nvim",
+    url = "https://github.com/numToStr/Comment.nvim"
+  },
   LuaSnip = {
     loaded = true,
     path = "/Users/ryan/.local/share/nvim/site/pack/packer/start/LuaSnip",
@@ -114,6 +125,11 @@ _G.packer_plugins = {
     path = "/Users/ryan/.local/share/nvim/site/pack/packer/start/colorbuddy.nvim",
     url = "https://github.com/tjdevries/colorbuddy.nvim"
   },
+  everforest = {
+    loaded = true,
+    path = "/Users/ryan/.local/share/nvim/site/pack/packer/start/everforest",
+    url = "https://github.com/sainnhe/everforest"
+  },
   ["friendly-snippets"] = {
     loaded = true,
     path = "/Users/ryan/.local/share/nvim/site/pack/packer/start/friendly-snippets",
@@ -124,10 +140,35 @@ _G.packer_plugins = {
     path = "/Users/ryan/.local/share/nvim/site/pack/packer/start/fzf-lua",
     url = "https://github.com/ibhagwan/fzf-lua"
   },
+  ["gitsigns.nvim"] = {
+    loaded = true,
+    path = "/Users/ryan/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
+    url = "https://github.com/lewis6991/gitsigns.nvim"
+  },
+  gruvbox = {
+    loaded = true,
+    path = "/Users/ryan/.local/share/nvim/site/pack/packer/start/gruvbox",
+    url = "https://github.com/morhetz/gruvbox"
+  },
+  ["gruvbox-material"] = {
+    loaded = true,
+    path = "/Users/ryan/.local/share/nvim/site/pack/packer/start/gruvbox-material",
+    url = "https://github.com/sainnhe/gruvbox-material"
+  },
   harpoon = {
     loaded = true,
     path = "/Users/ryan/.local/share/nvim/site/pack/packer/start/harpoon",
     url = "https://github.com/theprimeagen/harpoon"
+  },
+  ["indent-blankline.nvim"] = {
+    loaded = true,
+    path = "/Users/ryan/.local/share/nvim/site/pack/packer/start/indent-blankline.nvim",
+    url = "https://github.com/lukas-reineke/indent-blankline.nvim"
+  },
+  ["lsp-toggle.nvim"] = {
+    loaded = true,
+    path = "/Users/ryan/.local/share/nvim/site/pack/packer/start/lsp-toggle.nvim",
+    url = "https://github.com/adoyle-h/lsp-toggle.nvim"
   },
   ["lsp-zero.nvim"] = {
     loaded = true,
@@ -145,10 +186,25 @@ _G.packer_plugins = {
     url = "https://github.com/williamboman/mason.nvim"
   },
   ["neosolarized.nvim"] = {
-    config = { "\27LJ\2\nQ\0\0\3\0\4\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0B\0\2\1K\0\1\0\1\0\1\19background_set\2\nsetup\17neosolarized\frequire\0" },
     loaded = true,
     path = "/Users/ryan/.local/share/nvim/site/pack/packer/start/neosolarized.nvim",
     url = "https://github.com/svrana/neosolarized.nvim"
+  },
+  ["nui.nvim"] = {
+    loaded = true,
+    path = "/Users/ryan/.local/share/nvim/site/pack/packer/start/nui.nvim",
+    url = "https://github.com/MunifTanjim/nui.nvim"
+  },
+  ["null-ls.nvim"] = {
+    loaded = true,
+    path = "/Users/ryan/.local/share/nvim/site/pack/packer/start/null-ls.nvim",
+    url = "https://github.com/jose-elias-alvarez/null-ls.nvim"
+  },
+  ["nvim-autopairs"] = {
+    config = { "\27LJ\2\n@\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\19nvim-autopairs\frequire\0" },
+    loaded = true,
+    path = "/Users/ryan/.local/share/nvim/site/pack/packer/start/nvim-autopairs",
+    url = "https://github.com/windwp/nvim-autopairs"
   },
   ["nvim-cmp"] = {
     loaded = true,
@@ -160,6 +216,11 @@ _G.packer_plugins = {
     path = "/Users/ryan/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
   },
+  ["nvim-surround"] = {
+    loaded = true,
+    path = "/Users/ryan/.local/share/nvim/site/pack/packer/start/nvim-surround",
+    url = "https://github.com/kylechui/nvim-surround"
+  },
   ["nvim-treesitter"] = {
     loaded = true,
     path = "/Users/ryan/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
@@ -169,6 +230,16 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/ryan/.local/share/nvim/site/pack/packer/start/nvim-treesitter-context",
     url = "https://github.com/nvim-treesitter/nvim-treesitter-context"
+  },
+  ["nvim-ts-autotag"] = {
+    loaded = true,
+    path = "/Users/ryan/.local/share/nvim/site/pack/packer/start/nvim-ts-autotag",
+    url = "https://github.com/windwp/nvim-ts-autotag"
+  },
+  ["nvim-ts-context-commentstring"] = {
+    loaded = true,
+    path = "/Users/ryan/.local/share/nvim/site/pack/packer/start/nvim-ts-context-commentstring",
+    url = "https://github.com/JoosepAlviste/nvim-ts-context-commentstring"
   },
   ["oil.nvim"] = {
     loaded = true,
@@ -185,6 +256,21 @@ _G.packer_plugins = {
     path = "/Users/ryan/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
+  ["telescope-find-pickers.nvim"] = {
+    loaded = true,
+    path = "/Users/ryan/.local/share/nvim/site/pack/packer/start/telescope-find-pickers.nvim",
+    url = "https://github.com/keyvchan/telescope-find-pickers.nvim"
+  },
+  ["telescope.nvim"] = {
+    loaded = true,
+    path = "/Users/ryan/.local/share/nvim/site/pack/packer/start/telescope.nvim",
+    url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
+  ["toast.vim"] = {
+    loaded = true,
+    path = "/Users/ryan/.local/share/nvim/site/pack/packer/start/toast.vim",
+    url = "https://github.com/jsit/toast.vim"
+  },
   undotree = {
     loaded = true,
     path = "/Users/ryan/.local/share/nvim/site/pack/packer/start/undotree",
@@ -195,18 +281,27 @@ _G.packer_plugins = {
     path = "/Users/ryan/.local/share/nvim/site/pack/packer/start/vim-fugitive",
     url = "https://github.com/tpope/vim-fugitive"
   },
-  ["vim-tmux-navigator"] = {
+  ["vim-material"] = {
     loaded = true,
-    path = "/Users/ryan/.local/share/nvim/site/pack/packer/start/vim-tmux-navigator",
-    url = "https://github.com/christoomey/vim-tmux-navigator"
+    path = "/Users/ryan/.local/share/nvim/site/pack/packer/start/vim-material",
+    url = "https://github.com/hzchirs/vim-material"
+  },
+  ["vim-obsession"] = {
+    loaded = true,
+    path = "/Users/ryan/.local/share/nvim/site/pack/packer/start/vim-obsession",
+    url = "https://github.com/tpope/vim-obsession"
   }
 }
 
 time([[Defining packer_plugins]], false)
--- Config for: neosolarized.nvim
-time([[Config for neosolarized.nvim]], true)
-try_loadstring("\27LJ\2\nQ\0\0\3\0\4\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0B\0\2\1K\0\1\0\1\0\1\19background_set\2\nsetup\17neosolarized\frequire\0", "config", "neosolarized.nvim")
-time([[Config for neosolarized.nvim]], false)
+-- Config for: nvim-autopairs
+time([[Config for nvim-autopairs]], true)
+try_loadstring("\27LJ\2\n@\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\19nvim-autopairs\frequire\0", "config", "nvim-autopairs")
+time([[Config for nvim-autopairs]], false)
+-- Config for: ChatGPT.nvim
+time([[Config for ChatGPT.nvim]], true)
+try_loadstring("\27LJ\2\n5\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\fchatgpt\frequire\0", "config", "ChatGPT.nvim")
+time([[Config for ChatGPT.nvim]], false)
 
 _G._packer.inside_compile = false
 if _G._packer.needs_bufread == true then

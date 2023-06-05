@@ -1,13 +1,13 @@
 local actions = require("fzf-lua.actions")
-local fzf = require('fzf-lua')
+local fzf = require("fzf-lua")
 
-vim.keymap.set('n', '<Leader>ff', fzf.files)
-vim.keymap.set('n', '<Leader>fk', fzf.keymaps)
-vim.keymap.set('n', '<Leader>fg', fzf.live_grep)
-vim.keymap.set('n', '<Leader>fd', fzf.buffers)
+vim.keymap.set("n", "<Leader>ff", fzf.files)
+vim.keymap.set("n", "<Leader>fk", fzf.keymaps)
+vim.keymap.set("n", "<Leader>fg", fzf.live_grep)
+vim.keymap.set("n", "<Leader>fb", fzf.buffers)
 
 fzf.setup({
-	"max-perf",
+	"default",
 	winopts = {
 		fullscreen = true,
 		border = false,
@@ -22,17 +22,15 @@ fzf.setup({
 		builtin = {
 			["<c-d>"] = "preview-page-down",
 			["<c-u>"] = "preview-page-up",
-			["-"] = "toggle-preview",
+			["+"] = "toggle-preview",
 		},
 		fzf = {
 			["ctrl-d"] = "preview-page-down",
 			["ctrl-u"] = "preview-page-up",
-			["-"] = "toggle-preview",
+			["+"] = "toggle-preview",
 		},
 	},
-	bat = {
-		theme = "neosolarized",
-	},
+	bat = {},
 	files = {
 		prompt = "files: ",
 		show_cwd_prompt = true,
