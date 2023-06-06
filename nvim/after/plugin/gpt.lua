@@ -1,6 +1,4 @@
 require("chatgpt").setup({
-	api_key_cmd = nil,
-	yank_register = "+",
 	chat = {
 		welcome_message = "WELCOME_MESSAGE",
 		loading_text = "beep boop yerp derp ...",
@@ -10,7 +8,7 @@ require("chatgpt").setup({
 		keymaps = {
 			close = { "<C-c>" },
 			yank_last = "<C-y>",
-			yank_last_code = "<C-k>",
+			yank_last_code = "<C-Y>",
 			scroll_up = "<C-u>",
 			scroll_down = "<C-d>",
 			new_session = "<C-n>",
@@ -19,10 +17,10 @@ require("chatgpt").setup({
 			select_session = "<Space>",
 			rename_session = "r",
 			delete_session = "d",
-			draft_message = "<C-d>",
+			draft_message = "<C-m>",
 			toggle_settings = "<C-o>",
 			toggle_message_role = "<C-r>",
-			toggle_system_role_open = "<C-s>",
+			toggle_system_role_open = "<C-a>",
 		},
 	},
 	popup_layout = {
@@ -32,13 +30,14 @@ require("chatgpt").setup({
 			height = "100%",
 		},
 		right = {
-			width = "30%",
+			width = "50%",
 			width_settings_open = "50%",
 		},
 	},
 	popup_input = {
 		prompt = "?",
-		submit = "<Cr>",
+		submit = "<C-s>",
 	},
 })
-vim.keymap.set("n", "<leader>gt", ":ChatGPT<cr>")
+vim.keymap.set("n", "<leader>c", ":ChatGPT<cr>")
+vim.treesitter.language.register("markdown", "chatgpt")

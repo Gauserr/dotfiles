@@ -1,6 +1,6 @@
-local oil = require('oil')
+local oil = require("oil")
 
-vim.keymap.set('n', '<Leader>fs', ':Oil<cr>')
+vim.keymap.set("n", "<Leader>fs", ":Oil<cr>")
 
 oil.setup({
 	win_options = {
@@ -14,7 +14,7 @@ oil.setup({
 		["<C-t>"] = "actions.select_tab",
 		["-"] = "actions.preview",
 		["<C-c>"] = "actions.close",
-		["<C-l>"] = "actions.refresh",
+		["<C-L>"] = "actions.refresh",
 		["<C-p>"] = "actions.parent",
 		["<C-o>"] = "actions.open_cwd",
 		["<C-d>"] = "actions.cd",
