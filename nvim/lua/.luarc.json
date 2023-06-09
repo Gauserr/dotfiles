@@ -3,6 +3,8 @@
         "/Users/ryan/.local/share/bob/v0.9.0/nvim-macos/share/nvim/runtime/lua",
         "/Users/ryan/.config/nvim/lua",
         "/Users/ryan/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/0f6b6ef8",
-        "/Users/ryan/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/175f4ef7"
+        "/Users/ryan/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/175f4ef7",
+        "/Users/ryan/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/3dc6b7b3",
+        "/Users/ryan/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/3dc6b7b3"
     ]
 }

@@ -3,8 +3,8 @@ local keymap = vim.keymap.set
 vim.g.mapleader = " "
 
 keymap("n", "Q", "<nop>")
-keymap("n", "<Leader>w", "<C-w>")
-keymap("n", "<C-w>", "")
+keymap("i", "jk", "<esc>")
+keymap("i", "kj", "<esc>")
 
 keymap({ "n", "v", "x" }, ";", ":")
 keymap({ "n", "v", "x" }, ":", ";")

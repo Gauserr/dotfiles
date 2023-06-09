@@ -39,5 +39,5 @@ require("chatgpt").setup({
 		submit = "<C-s>",
 	},
 })
-vim.keymap.set("n", "<leader>c", ":ChatGPT<cr>")
+vim.keymap.set("n", "<leader>cc", ":ChatGPT<cr>")
 vim.treesitter.language.register("markdown", "chatgpt")

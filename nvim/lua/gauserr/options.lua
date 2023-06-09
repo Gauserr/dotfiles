@@ -5,6 +5,7 @@ set.nu = true
 set.clipboard = "unnamedplus"
 set.relativenumber = true
 set.autoindent = true
+set.pumheight = 5
 set.backup = false
 set.modifiable = true
 set.cmdheight = 1

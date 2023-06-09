@@ -38,6 +38,8 @@ return require("packer").startup(function(use)
 			{ "rafamadriz/friendly-snippets" },
 		},
 	})
+	--obsidian
+	use("epwalsh/obsidian.nvim")
 
 	use("jose-elias-alvarez/null-ls.nvim")
 
@@ -50,7 +52,6 @@ return require("packer").startup(function(use)
 			"nvim-telescope/telescope.nvim",
 		},
 	})
-
 	use({
 		"stevearc/oil.nvim",
 	})
@@ -61,6 +62,7 @@ return require("packer").startup(function(use)
 			require("nvim-autopairs").setup({})
 		end,
 	})
+	use("ruifm/gitlinker.nvim")
 	use("ibhagwan/fzf-lua")
 	use("windwp/nvim-ts-autotag")
 	use("tpope/vim-fugitive")
@@ -80,6 +82,7 @@ return require("packer").startup(function(use)
 	use({
 		"svrana/neosolarized.nvim",
 	})
+
 	use("adoyle-h/lsp-toggle.nvim")
 	use("jsit/toast.vim")
 
@@ -92,7 +95,6 @@ return require("packer").startup(function(use)
 		"keyvchan/telescope-find-pickers.nvim",
 	})
 
-	use("tpope/vim-obsession")
 	use({
 		"kylechui/nvim-surround",
 		tag = "*", -- Use for stability; omit to use `main` branch for the latest features
