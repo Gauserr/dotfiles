@@ -1,0 +1,6 @@
+{
+    "workbench.sideBar.location": "right",
+    "cursor.composer.shouldChimeAfterChatFinishes": true,
+    "remote.autoForwardPorts": false,
+    "workbench.colorTheme": "GitHub Dark"
+}
