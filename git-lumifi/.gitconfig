@@ -1,8 +1,6 @@
-[init]
-  defaultBranch = main
 [user]
   name = Ryan Gause
-  email = gauserr@icloud.com
+  email = rgause@lumificyber.com
 [core]
   editor = vim
   autocrlf = input
