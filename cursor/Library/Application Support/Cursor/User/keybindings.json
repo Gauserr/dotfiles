@@ -12,4 +12,8 @@
         "key": "cmd+l",
         "command": "composerMode.chat"
     },
+    {
+        "key": "cmd+r cmd+n",
+        "command": "editor.cpp.toggle"
+    },
 ]
